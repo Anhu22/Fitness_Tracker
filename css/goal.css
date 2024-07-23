@@ -13,3 +13,57 @@ nav {
     justify-content:center;
     position: relative;
 }
+.nav__menu {
+    display: flex;
+}
+.nav__menu > a {
+    text-decoration: none;
+    color: white;
+    margin: 6px;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+.nav__menu > a > img {
+    width: 16px;
+}
+
+.nav__menu > a:hover{
+    text-decoration: underline;
+}
+.nav__menu > a:active {
+    background-color:#003F7D;
+}
+#selected {
+    background-color:#003F7D;
+}
+#logo {
+    position: absolute;
+    left: 50px;
+    top: 4px;
+    width: 5%;
+}
+.link {
+    margin-left: 100px;
+}
+.link > a{
+    padding: 0px;
+    margin: 12px 4px;
+}
+.link > img {
+    width: 25px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.right {
+    width: 25%;
+    margin: 40px;
+}
+.right__data {
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #F0F0F0;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    margin: 10px 0px;
+
+}
